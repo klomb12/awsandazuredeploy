@@ -81,8 +81,8 @@ export default function polygonplace() {
                                 <Image
                                     src={nft.image}
                                     alt="Picture of the author"
-                                    width={500}
-                                    height={500}
+                                    width={'300%'}
+                                    height={'300%'}
                                 // blurDataURL="data:..." automatically provided
                                 // placeholder="blur" // Optional blur-up while loading
                                 />

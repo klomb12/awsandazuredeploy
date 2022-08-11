@@ -16,8 +16,8 @@ export default function Team() {
         <>
             <Heading bg={'pink.100'} textAlign='center' margin={'0'} paddingTop={'5'}
                 _hover={{ bg: "", color: " white" }}
-
             >
+
                 TEAM
 
             </Heading>

@@ -27,12 +27,9 @@ import { useDisclosure } from '@chakra-ui/react';
 import { useState } from 'react';
 import { ViewIcon, ViewOffIcon } from '@chakra-ui/icons';
 import { useRouter } from 'next/router';
+import CreatorDashboard from '../test';
 
-
-
-
-
-export default function CallToActionWithVideo() {
+export default function Nftplateform() {
     const [showPassword, setShowPassword] = useState(false);
     const router = useRouter();
     const { isOpen, onOpen, onClose } = useDisclosure()
@@ -205,13 +202,13 @@ export default function CallToActionWithVideo() {
                 </Drawer>
 
                 <Button
-
+                    as={'a'} href={'../test'}
                     _hover={{ bg: "gray.100", color: "orange.400" }}
                     rounded={'full'}
                     fontWeight={'bold'}
                     color={'white'}
                     colorScheme={'cyan'}
-                    onClick={moovpage}
+
 
                 >
                     Acheter NFT
@@ -353,9 +350,10 @@ export default function CallToActionWithVideo() {
                         BSC
                     </Button>
                 </Stack>
-                <Stack bg={'azure'} h='xs'>
+                <Stack bg={'azure'} h='xs' borderBottom={'1px'} borderColor='ButtonFace'>
 
                 </Stack>
+
 
             </Container>
 
