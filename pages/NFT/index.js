@@ -27,7 +27,6 @@ import { useDisclosure } from '@chakra-ui/react';
 import { useState } from 'react';
 import { ViewIcon, ViewOffIcon } from '@chakra-ui/icons';
 import { useRouter } from 'next/router';
-import CreatorDashboard from '../test';
 
 export default function Nftplateform() {
     const [showPassword, setShowPassword] = useState(false);
@@ -243,7 +242,7 @@ export default function Nftplateform() {
                                     bg: 'orange.400',
                                     zIndex: -1,
                                 }}>
-                                C'est Quoi,
+                                C est Quoi,
                             </Text>
                             <br />
                             <Text as={'span'} color={'orange.300'} _hover={{ bg: "", color: "orange.400" }}>
@@ -251,7 +250,7 @@ export default function Nftplateform() {
                             </Text>
                         </Heading>
                         <Text color={'gray.500'}>
-                            NFT are unique cryptographic tokens that exist on a blockchain and cannot be replicated. NFTs can represent real-world items like artwork and real estate. "Tokenizing" these real-world tangible assets makes buying, selling, and trading them more efficient while reducing the probability of fraud.
+                            NFT are unique cryptographic tokens that exist on a blockchain and cannot be replicated. NFTs can represent real-world items like artwork and real estate. Tokenizing these real-world tangible assets makes buying, selling, and trading them more efficient while reducing the probability of fraud.
                         </Text>
                         <Stack
                             spacing={{ base: 4, sm: 6 }}
